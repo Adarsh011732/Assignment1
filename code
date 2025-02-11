@@ -1,0 +1,9 @@
+a=int(input("enter 1st element: "))
+b=int(input("Enter 2nd element: "))
+c=int(input("Enter 3rd element: "))
+total=0
+if (a+b+c>50):
+  total=a+b+c-0.1*(a+b+c)
+else:
+ total=a+b+c
+print(f"Your final price is: {total}")  
